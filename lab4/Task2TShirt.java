@@ -1,13 +1,17 @@
 package lab4;
 
 public class Task2TShirt extends Task2Clothes implements Task2WomenClothing, Task2MenClothing{
-    @Override
-    public void dressWoman() {
-
+    public Task2TShirt(Task2ENUM size, int cost, String color) {
+        super(size, cost, color);
     }
 
     @Override
-    public void dressMan() {
+    public String dressWoman() {
+        return "Женская футболка";
+    }
 
+    @Override
+    public String dressMan() {
+        return "Мужская футболка";
     }
 }

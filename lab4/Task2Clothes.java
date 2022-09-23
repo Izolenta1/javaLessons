@@ -5,6 +5,12 @@ public abstract class Task2Clothes {
     private int cost;
     private String color;
 
+    public Task2Clothes(Task2ENUM size, int cost, String color) {
+        this.size = size;
+        this.cost = cost;
+        this.color = color;
+    }
+
     public Task2ENUM getSize() {
         return size;
     }
@@ -27,5 +33,14 @@ public abstract class Task2Clothes {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Task2Clothes{" +
+                "size=" + size +
+                ", cost=" + cost +
+                ", color='" + color + '\'' +
+                '}';
     }
 }
