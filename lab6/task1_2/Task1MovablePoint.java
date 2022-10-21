@@ -27,24 +27,24 @@ public class Task1MovablePoint implements Task1Movable {
 
     @Override
     public void moveUp() {
-        y -=ySpeed;
+        y +=ySpeed;
     }
 
     @Override
     public void moveDown() {
-        y+=ySpeed;
+        y-=ySpeed;
 
     }
 
     @Override
     public void moveLeft() {
-        x += xSpeed;
+        x -= xSpeed;
 
     }
 
     @Override
     public void moveRight() {
-        x-=xSpeed;
+        x+=xSpeed;
 
     }
 }

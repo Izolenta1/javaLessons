@@ -12,14 +12,14 @@ public class TestMovable {
         m1.moveLeft();
         System.out.println(m1);
 
-        Task1Movable m2 = new Task1MovableCircle(3,1,3,-3,8);
+        Task1Movable m2 = new Task1MovableCircle(3,1,3,3,8);
 
         System.out.println(m2);
         m2.moveRight();
         System.out.println(m2);
 
         Task1Movable m4 = new Task1MovablePoint(4,1,2,3);
-        Task1Movable m3 = new Task1MovableRectangle((Task1MovablePoint) m4,(Task1MovablePoint) m4);
+        Task1Movable m3 = new Task1MovableRectangle((Task1MovablePoint) m1,(Task1MovablePoint) m4);
         System.out.println(m3);
         m3.moveUp();
         System.out.println(m3);

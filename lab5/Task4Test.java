@@ -16,15 +16,15 @@ public class Task4Test {
         BufferedImage[] imgMas = new BufferedImage[5];
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File("C:\\Users\\George\\Desktop\\lab5Java\\1.jpg"));
+            img = ImageIO.read(new File("C:\\Users\\georn\\Desktop\\githubRepos\\javaLessons\\lab5\\animFrames\\1.jpg"));
             imgMas[0] = img;
-            img = ImageIO.read(new File("C:\\Users\\George\\Desktop\\lab5Java\\2.jpg"));
+            img = ImageIO.read(new File("C:\\Users\\georn\\Desktop\\githubRepos\\javaLessons\\lab5\\animFrames\\2.jpg"));
             imgMas[1] = img;
-            img = ImageIO.read(new File("C:\\Users\\George\\Desktop\\lab5Java\\3.jpg"));
+            img = ImageIO.read(new File("C:\\Users\\georn\\Desktop\\githubRepos\\javaLessons\\lab5\\animFrames\\3.jpg"));
             imgMas[2] = img;
-            img = ImageIO.read(new File("C:\\Users\\George\\Desktop\\lab5Java\\4.jpg"));
+            img = ImageIO.read(new File("C:\\Users\\georn\\Desktop\\githubRepos\\javaLessons\\lab5\\animFrames\\4.jpg"));
             imgMas[3] = img;
-            img = ImageIO.read(new File("C:\\Users\\George\\Desktop\\lab5Java\\5.jpg"));
+            img = ImageIO.read(new File("C:\\Users\\georn\\Desktop\\githubRepos\\javaLessons\\lab5\\animFrames\\5.jpg"));
             imgMas[4] = img;
         } catch (IOException e) {
             e.printStackTrace();

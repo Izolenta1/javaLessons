@@ -11,15 +11,15 @@ public class Task1MovableRectangle implements Task1Movable {
 
     @Override
     public void moveUp() {
-        topLeft.y -= topLeft.ySpeed;
-        bottomRight.y -= topLeft.ySpeed;
+        topLeft.y += topLeft.ySpeed;
+        bottomRight.y += topLeft.ySpeed;
 
     }
 
     @Override
     public void moveDown() {
-        topLeft.y += topLeft.ySpeed;
-        bottomRight.x += topLeft.xSpeed;
+        topLeft.y -= topLeft.ySpeed;
+        bottomRight.x -= topLeft.xSpeed;
 
     }
 
